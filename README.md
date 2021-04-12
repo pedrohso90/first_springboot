@@ -3,7 +3,7 @@ Project for studies of the java language, with Spring Boot
 
 ## Build local
 ```
-mvn install
+./mvnw install
 ```
 ## Execute local
 ```
