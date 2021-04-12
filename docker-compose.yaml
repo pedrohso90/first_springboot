@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+    first_springboot:
+        build: 
+            context: .
+        image: first_springboot:0.0.1
+        container_name: first_springboot
+        hostname: first_springboot
+        network_mode: "bridge"
+        restart: always
+        ports: 
+            - 443:443
